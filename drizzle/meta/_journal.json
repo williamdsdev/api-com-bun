@@ -15,6 +15,20 @@
       "when": 1738806846508,
       "tag": "0001_moaning_black_crow",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1738888434648,
+      "tag": "0002_red_lyja",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1738888603217,
+      "tag": "0003_woozy_mad_thinker",
+      "breakpoints": true
     }
   ]
 }
