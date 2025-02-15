@@ -22,4 +22,4 @@ export const restaurantsRelations = relations(restaurants, ({ one }) => {
             relationName: 'restaurant_manager',
         }),
     }
-})
+});
