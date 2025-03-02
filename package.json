@@ -9,15 +9,8 @@
     "test": "bun test",
     "generate": "drizzle-kit generate",
     "studio": "drizzle-kit studio",
-    "migrate": "bun src/db/migrate.ts"
-  },
-  "devDependencies": {
-    "@types/bun": "latest",
-    "chalk": "^5.4.1",
-    "drizzle-kit": "^0.30.4"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
+    "migrate": "bun src/db/migrate.ts",
+    "seed": "bun src/db/seed.ts"
   },
   "dependencies": {
     "@paralleldrive/cuid2": "^2.2.2",
@@ -25,5 +18,14 @@
     "elysia": "^1.2.12",
     "postgres": "^3.4.5",
     "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.5.1",
+    "@types/bun": "latest",
+    "chalk": "^5.4.1",
+    "drizzle-kit": "^0.30.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
   }
 }
