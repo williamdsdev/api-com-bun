@@ -7,7 +7,7 @@
     "build": "bun build src/http/server.ts",
     "start": "NODE_ENV=production bun src/http/server.ts",
     "test": "bun test",
-    "generate": "drizzle-kit generate",
+    "generate": "bun -b drizzle-kit generate",
     "studio": "drizzle-kit studio",
     "migrate": "bun src/db/migrate.ts",
     "seed": "bun src/db/seed.ts",
@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@paralleldrive/cuid2": "^2.2.2",
+    "dotenv": "^16.4.7",
     "drizzle-orm": "^0.39.2",
     "elysia": "^1.2.12",
     "postgres": "^3.4.5",
