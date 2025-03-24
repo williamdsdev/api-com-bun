@@ -2,7 +2,6 @@ import jwt from '@elysiajs/jwt'
 import Elysia, { t, type Static } from 'elysia'
 import { env } from '../env'
 import { UnauthorizedError } from './errors/unauthorized-error'
-import { set } from 'zod'
 
 const jwtPayload = t.Object({
   sub: t.String(),
