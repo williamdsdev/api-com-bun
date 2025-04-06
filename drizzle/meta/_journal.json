@@ -43,6 +43,13 @@
       "when": 1742941649148,
       "tag": "0005_spooky_the_call",
       "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1743959668052,
+      "tag": "0006_bumpy_tattoo",
+      "breakpoints": true
     }
   ]
 }
