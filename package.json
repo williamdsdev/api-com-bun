@@ -20,6 +20,7 @@
     "dayjs": "^1.11.13",
     "dotenv": "^16.4.7",
     "drizzle-orm": "^0.39.2",
+    "drizzle-typebox": "^0.3.1",
     "elysia": "^1.2.12",
     "nodemailer": "^6.10.0",
     "postgres": "^3.4.5",
